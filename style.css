@@ -33,5 +33,6 @@ btn:hover {
     border: 1px solid #fff !important;
 }
     a:hover {
-    background-color: lightblue;
+    background-color: #49356d;
+    color: white !important;                  
 }
