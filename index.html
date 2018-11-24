@@ -1,6 +1,4 @@
 <!DOCTYPE html>
-<html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,6 +20,18 @@
 
 
 <body>
+    <!--WOW.js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
+    <script>
+        new WOW().init();
+    </script>
+
+    <!--JQuery-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+
     <!--Navbar-->
     <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
         <a class="navbar-brand" href="#CompanyName">IT TAKES A VILLAGE</a>
@@ -65,10 +75,9 @@
             <div class="container text-white">
 
                 <!--<h1 class="display-4">It Takes a Village</h1>-->
-                <img src="itav1.png" alt="It Takes a Village" style="width:250px;height:250px;"></img>
-                <p class="lead"> It Takes A Village is a non profit that aims to close the education gap that exist across the New England Area. We believe that by hosting rigorous classes in math and english throughout the school year our students will be able to better
+                <img src="itav1.png" alt="It Takes a Village" style="width:250px;height:250px;border: 5px solid #2E8B57;border-radius: 15px 50px;"></img>
+                <p class="lead"> It Takes A Village is a non profit that aims to close the education gap that exist across the New England Area. We believe that by hosting rigorous classes in Math and English throughout the school year our students will be able to better
                     prepare for the SAT, and College application process. Additionally we believe that it takes a village to ensure that our students are equipped with the tools and skills necessary to succeed in the world.</p>
-
 
 
             </div>
@@ -84,28 +93,30 @@
 
     <div id="meet our team" class="meet our team">
         <div class="container">
+            <h2>OUR TEAM</h2>
             <div class="row">
                 <div class="column">
                     <div class="card">
-                        <img src="https://www.imore.com/sites/imore.com/files/styles/large/public/field/image/2014/03/topic_steve_jobs.png?itok=X2pO1JND" alt="Jane" class="center" style="width:70%">
+                        <img src="https://www.imore.com/sites/imore.com/files/styles/large/public/field/image/2014/03/topic_steve_jobs.png?itok=X2pO1JND" alt="Jane" class="center" style="width:50%">
                         <div class="container">
-                            <h2>John Doe</h2>
-                            <p class="title">CEO &amp; Founder</p>
-                            <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                            <p>example@example.com</p>
+                            <h2> David Johnson </h2>
+                            <p class="title">Program Director</p>
+                            <p>Leads and coordinates It Takes A Village's program for students' SAT and college application classes</p>
+                            <p>djohnson@itav.org</p>
                             <p><button class="button">Contact</button></p>
+
                         </div>
                     </div>
                 </div>
 
                 <div class="column">
                     <div class="card">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a2/Bobby_Sharma.jpg" alt="Mike" class="center" style="width:50%">
+                        <img src="https://www.eikonphoto.com/wp-content/uploads/2018/01/dc-corporate-headshots.jpg" alt="Mike" class="center" style="width:50%">
                         <div class="container">
-                            <h2>Mike Ross</h2>
-                            <p class="title">Program Director</p>
-                            <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                            <p>example@example.com</p>
+                            <h2>Mark Smith</h2>
+                            <p class="title">CEO &amp; Founder</p>
+                            <p>Determines It Takes a Villages' overall mission and core values of preparing students for the college world</p>
+                            <p>msmith@itav.org</p>
                             <p><button class="button">Contact</button></p>
                         </div>
                     </div>
@@ -113,12 +124,12 @@
                 <hr>
                 <div class="column">
                     <div class="card">
-                        <img src="https://flexstarplus.nl/wp-content/uploads/2017/11/Secretaresse-uitzendbureau-1.jpg" alt="John" class="center" style="width:55%">
+                        <img src="https://www.eikonphoto.com/wp-content/uploads/2018/01/female-headshots-near-me.jpg" alt="John" class="center" style="width:50%">
                         <div class="container">
-                            <h2>Jane Doe</h2>
-                            <p class="title">Public Relations Director</p>
-                            <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                            <p>example@example.com</p>
+                            <h2>Maria Brown </h2>
+                            <p class="title">College Advisor</p>
+                            <p>Helps guide students in It Takes a Village with the college application process and ensures that they meet graduation requirements</p>
+                            <p>mbrown@itav.org</p>
                             <p><button class="button">Contact</button></p>
                         </div>
                     </div>
@@ -143,26 +154,35 @@
                 <div class="col-lg-3 col-md-3 wow flipInY" data-wow-delay="1.2s">
                     <i class="fas fa-book-reader" aria-hidden="true"></i>
                     <h4>After School Program</h4>
-                    <p>Its hard getting help with homework especially when you dont understand it all. It is our team's mission to make sure that our scholars look forward to going to school. In afterschool our students can take so much more than academic
-                        help but also social and communication skills that they can take with them into the world. </p>
+                    <p> In afterschool, our students can take academic help, as well as social and communication skills with them into the world. </p>
                 </div>
+                
                 <div class="col-lg-3 col-md-3 wow flipInY" data-wow-delay="1.6s">
                     <i class="fas fa-chalkboard-teacher" aria-hidden="true"></i>
                     <h4>Saturday Classes</h4>
-                    <p>Saturday classes will be held to provided homework assistance and study tactics. Our scholars will be to recieve help in all areas from math and science to english and history. Saturday classes can help our students get a better understanding
-                        of the curriculum they are learning at their highschools to better prepare them for college.</p>
+                    <p>These are held to provide homework assistance in all subjects, study tactics, and to help our students grasp what they learn at their high schools.</p>
                 </div>
+                
+               
                 <div class="col-lg-3 col-md-3 wow flipInY" data-wow-delay="2.0s">
                     <i class="fas fa-graduation-cap" aria-hidden="true"></i>
                     <h4>SAT Prep</h4>
                     <p>SAT classes will be offered to help our scholars be better prepared for the Math, Reading, Writing & Language, and Essay components of the SAT exam. Our team has had great success with helping scholars achieve outstanding scores on
                         their SAT exams, and we believe we can do the same for you. Invest in your future.</p>
                 </div>
+                
                 <div class="col-lg-3 col-md-3 wow flipInY" data-wow-delay="2.4s">
                     <i class="fa fa-university" aria-hidden="true"></i>
                     <h4>College Counseling</h4>
                     <p> It is in our best interest to make sure our scholars know everything about applying to colleges and what they should and should not do in the process. Advice on anything from college essays to financial planning. We will ensure our
                         scholars have all the means to graduate highschool and follow their dreams at the college of their choice.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+              
+                    <div class="input-group-append">
+                        <button class="btn btn-primary" type="button">sign up</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -172,132 +192,147 @@
 
     <hr>
     <!--Alumni-->
-    <div id="alumni" class="alumni">
+
+    <div id="slideshow">
+        <div class="slide-wrapper">
+            <div class="slide">
+                <h1 class="slide-number">1</h1>
+            </div>
+            <div class="slide">
+                <h1 class="slide-number">2</h1>
+            </div>
+            <div class="slide">
+                <h1 class="slide-number">3</h1>
+            </div>
+            <div class="slide">
+                <h1 class="slide-number">4</h1>
+            </div>
+            <div class="slide">
+                <h1 class="slide-number">5</h1>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!--End Alumni-->
+    <hr>
+
+    <!--Contact-->
+    <div id="contact" class="contact">
         <div class="container">
-            <h2>Alumni</h2>
-
-            <p>Here is a list of colleges that past students attended from this company.</p>
-            <ul>
-                <li>Princeton University</li>
-                <li>Massachusetts Institute of Technology</li>
-                <li>Harvard University</li>
-                <li>Yale University</li>
-                <li>Stanford University</li>
-                <li>Columbia University</li>
-            </ul>
-            <!--End Alumni-->
-            <hr>
-
-            <!--Contact-->
-            <div id="contact" class="contact">
-                <div class="container">
-                    <h2>Contact Us</h2>
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6">
-                            <div class="input-group input-group-lg">
-                                <div class="input-group-prepend">
-                                    <span class="input-group-text" id="basic-addon1"><i class=" fas fa-user" aria-hidden="true"></i></span>
-                                </div>
-                                <input type="text" class="form-control" aria-describedby="sizing-addon-1" placeholder="Full Name" />
-                            </div>
-                            <div class="input-group input-group-lg">
-                                <div class="input-group-prepend">
-                                    <span class="input-group-text" id="basic-addon1"><i class="fas fa-envelope" aria-hidden="true"></i></span>
-                                </div>
-                                <input type="text" class="form-control" aria-describedby="sizing-addon-1" placeholder="Email" />
-                            </div>
-                            <div class="input-group input-group-lg">
-                                <div class="input-group-prepend">
-                                    <span class="input-group-text" id="basic-addon1"><i class="fas fa-phone" aria-hidden="true"></i></span>
-                                </div>
-                                <input type="text" class="form-control" aria-describedby="sizing-addon-1" placeholder="Phone Number" />
-                            </div>
+            <h2>Contact Us</h2>
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="input-group input-group-lg">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="basic-addon1"><i class=" fas fa-user" aria-hidden="true"></i></span>
                         </div>
-
-
-                        <div class="col-lg-6 col-md-6">
-                            <div class="input-group">
-                                <textarea cols="80" rows="6" class="form-control-message"></textarea>
-                            </div>
-                            <button class="btn btn-primary btn-block" type="button">Submit</button>
+                        <input type="text" class="form-control" aria-describedby="sizing-addon-1" placeholder="Full Name" />
+                    </div>
+                    <div class="input-group input-group-lg">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="basic-addon1"><i class="fas fa-envelope" aria-hidden="true"></i></span>
                         </div>
+                        <input type="text" class="form-control" aria-describedby="sizing-addon-1" placeholder="Email" />
+                    </div>
+                    <div class="input-group input-group-lg">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="basic-addon1"><i class="fas fa-phone" aria-hidden="true"></i></span>
+                        </div>
+                        <input type="text" class="form-control" aria-describedby="sizing-addon-1" placeholder="Phone Number" />
+                    </div>
+                </div>
+
+
+                <div class="col-lg-6 col-md-6">
+                    <div class="input-group">
+                        <textarea cols="80" rows="6" class="form-control-message"></textarea>
+                    </div>
+                    <button class="btn btn-primary btn-block" type="button">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End Contact-->
+
+
+
+    <hr>
+
+    <!--Donate-->
+    <div id="donate" class="contact">
+        <div class="container">
+            <h2>Donate to us here</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-6">
+                    <button class="btn btn-outline-primary btn-lg" aria-presed="true">$25</button>
+                    <button class="btn btn-outline-primary btn-lg" aria-presed="true">$50</button>
+                    <button class="btn btn-outline-primary btn-lg" aria-presed="true">$100</button>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-6">
+                    <button class="btn btn-outline-primary btn-lg" aria-presed="true">$250</button>
+                    <button class="btn btn-outline-primary btn-lg" aria-presed="true">$500</button>
+                    <button class="btn btn-outline-primary btn-lg" aria-presed="true">$1000</button>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-6">
+                    <input type="text" class="form-control" placeholder="$" aria-label="" aria-describedby="basic-addon1">
+                    <div class="input-group-append">
+                        <button class="btn btn-primary" type="button">Donate</button>
                     </div>
                 </div>
             </div>
-            <!--End Contact-->
+        </div>
+    </div>
+    <!-- End Donate-->
 
 
+    <hr>
 
-            <hr>
 
-            <!--Donate-->
-            <div id="donate" class="contact">
-                <div class="container">
-                    <h2>Donate to us here</h2>
-                    <div class="row justify-content-center">
-                        <div class="col-lg-6 col-md-6">
-                            <button class="btn btn-outline-primary btn-lg" aria-presed="true">$25</button>
-                            <button class="btn btn-outline-primary btn-lg" aria-presed="true">$50</button>
-                            <button class="btn btn-outline-primary btn-lg" aria-presed="true">$100</button>
-                        </div>
-                    </div>
-                    <div class="row justify-content-center">
-                        <div class="col-lg-6 col-md-6">
-                            <button class="btn btn-outline-primary btn-lg" aria-presed="true">$250</button>
-                            <button class="btn btn-outline-primary btn-lg" aria-presed="true">$500</button>
-                            <button class="btn btn-outline-primary btn-lg" aria-presed="true">$1000</button>
-                        </div>
-                    </div>
-                    <div class="row justify-content-center">
-                        <div class="col-lg-6 col-md-6">
-                            <input type="text" class="form-control" placeholder="$" aria-label="" aria-describedby="basic-addon1">
-                            <div class="input-group-append">
-                                <button class="btn btn-primary" type="button">Donate</button>
-                            </div>
-                        </div>
+    <!--Footer-->
+    <div id="footer" class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4">
+                    <h4>Extra Information</h4>
+                    <p><i class="fa fa-home"></i> 5800 20th Avenue</p>
+                    <p><i class="fa fa-envelope"></i> hello@company.org</p>
+                    <p><i class="fa fa-phone"></i> (917)795-5948</p>
+                    <p><i class="fa fa-globe"></i> www.pupilpath.com</p>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <h4>About Us</h4>
+                    <p>Privacy</p>
+                    <p>Terms and Conditions</p>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <h4>Social Media</h4>
+                    <p>
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-linkedin"></i>
+                    </p>
+                    <input type="text" class="form-control" placeholder="Email Address" aria-label="" arisdescribedby="basic-addon1">
+                    <div class="input-group-append">
+                        <button class="btn btn-primary" type="button">Subscribe</button>
                     </div>
                 </div>
             </div>
-            <!-- End Donate-->
+        </div>
+    </div>
+    <!--End Footer-->
 
 
-            <hr>
-
-
-            <!--Footer-->
-            <div id="footer" class="footer">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-4 col-md-4">
-                            <h4>Extra Information</h4>
-                            <p><i class="fa fa-home"></i> 5800 20th Avenue</p>
-                            <p><i class="fa fa-envelope"></i> hello@company.org</p>
-                            <p><i class="fa fa-phone"></i> (917)795-5948</p>
-                            <p><i class="fa fa-globe"></i> www.pupilpath.com</p>
-                        </div>
-                        <div class="col-lg-4 col-md-4">
-                            <h4>About Us</h4>
-                            <p>Privacy</p>
-                            <p>Terms and Conditions</p>
-                        </div>
-                        <div class="col-lg-4 col-md-4">
-                            <h4>Social Media</h4>
-                            <p>
-                                <i class="fab fa-facebook"></i>
-                                <i class="fab fa-twitter"></i>
-                                <i class="fab fa-linkedin"></i>
-                            </p>
-                            <input type="text" class="form-control" placeholder="Email Address" aria-label="" arisdescribedby="basic-addon1">
-                            <div class="input-group-append">
-                                <button class="btn btn-primary" type="button">Subscribe</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--End Footer-->
-
-
+    <!--Javascript -->
+    <script type="text/javascript" src="javascript.js"></script>
 
 
 </body>
