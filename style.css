@@ -116,10 +116,11 @@ a:hover {
 
 /*SERVICES*/
 
-.service {
+
+.services {
     padding: 50px 0 80px;
     text-align: center;
-    background-color:black;
+    background-color:gray;
     margin-top: 50px;
 }
 
@@ -131,6 +132,7 @@ a:hover {
 .services h4 {
     text-align: center;
     color: #000000;
+    padding-top: 25px;
 }
 
 .services i {
@@ -144,7 +146,11 @@ a:hover {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+
 }
+
+
+
 
 input.MyButton {
 width: 300px;
@@ -163,15 +169,30 @@ background: #439348;
 border: 1px solid #fff;
 }
 
-/* Donate */
+/* DONATE */
 .container{
     text-align:center;
 }
 
+input.MyButton2 {
+width: 100px;
+padding: 10px;
+cursor: pointer;
+font-weight: bold;
+font-size: 100%;
+background: #439348;
+color: white;
+border: 1px solid #439348;
+border-radius: 10px;
+}
+input.MyButton:hover {
+color: white;
+background: #439348;
+border: 1px solid #fff;
 
 
 
-/*Alumi*/
+/*Alumni*/
 body {
   font-family: Helvetica, sans-serif;
   padding: 5%;
@@ -226,4 +247,100 @@ body {
   70% {margin-left: -1456px;}
   80% {margin-left: -2184px;}
   90% {margin-left: -2184px;}
+}
+
+/*CONTACT*/
+
+.contact {
+    
+    padding: 50px 0 80px;
+    text-align: center;
+}
+
+.contact p {
+    
+    padding-bottom: 80px;
+    color: #737373;
+}
+
+.contact h2 {
+    
+    color: #4c4c4c;
+    margin: 20px 0 20px;
+}
+
+.contact .input-group {
+    
+    margin-bottom: 25px;
+}
+
+.contact .form-control {
+    
+    border-radius: 0 !important;
+}
+
+.contact span {
+    
+    border-radius: 0 !important;
+}
+
+.contact .btn {
+    
+    border-radius: 0;
+    width: 100%;
+    font-size: 15px;
+    background-color: #feae3f;
+    color: #fff;
+}
+
+.contact .btn:hover {
+    
+    background-color: #a85959 !important;
+    color: #fff !important;
+}
+
+
+
+
+
+
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    color :#439348;
+    background-color:#439348;
+    background-color:#439348 ;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #439348;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
 }

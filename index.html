@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -126,7 +127,7 @@
                         <div class="container">
                             <h2>Maria Brown </h2>
                             <p class="title">College Advisor</p>
-                            <p>Helps guide students in It Takes a Village with the college application process and ensures that they meet graduation requirements</p>
+                            <p>Helps guide students in It Takes a Village with college applications and ensures that they meet graduation requirements</p>
                             <p>mbrown@itav.org</p>
                             <p><button class="button">Contact</button></p>
                         </div>
@@ -152,42 +153,39 @@
                 <div class="col-lg-3 col-md-3 wow flipInY" data-wow-delay="1.2s">
                     <i class="fas fa-book-reader" aria-hidden="true"></i>
                     <h4>After School Program</h4>
-                    <p> In afterschool, our students can take academic help, as well as social and communication skills with them into the world. This reinforces what our students are learning. </p>
+                    <p> In afterschool, our students can utilize academic help, as well as social and communication skills with them into the world. This reinforces what our students are learning. </p>
                 </div>
-                
+
                 <div class="col-lg-3 col-md-3 wow flipInY" data-wow-delay="1.6s">
                     <i class="fas fa-chalkboard-teacher" aria-hidden="true"></i>
                     <h4>Saturday Classes</h4>
                     <p>These are held to provide homework assistance in all subjects, study tactics, and to help our students grasp what they learn at their high schools.</p>
                 </div>
-                
-              
+
+
                 <div class="col-lg-3 col-md-3 wow flipInY" data-wow-delay="2.0s">
                     <i class="fas fa-graduation-cap" aria-hidden="true"></i>
                     <h4>SAT Prep</h4>
-                    <p>Our SAT classes offer preparation on its Math, Reading, Writing & Language, and Essay components, and has been successful in helping 
-                        students score high.</p>
+                    <p>Our SAT classes offer preparation on its Math, Reading, Writing & Language, and Essay components, and has been successful in helping students score high.</p>
                 </div>
-                
+
                 <div class="col-lg-3 col-md-3 wow flipInY" data-wow-delay="2.4s">
                     <i class="fa fa-university" aria-hidden="true"></i>
                     <h4>College Counseling</h4>
-                    <p> We guide our scholars through the process of applying to colleges. From essays to finances, we ensure our
-                        scholars follow their dreams with their college choices.</p>
+                    <p> We guide our scholars through the process of applying to colleges. From essays to finances, we ensure our scholars follow their dreams with their college choices.</p>
                 </div>
             </div>
-            
-         <br>  
 
-        <form>
-<input class="MyButton" type="button" value="Get Started" onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSduHTpZmkwPHeUiiO66md1xpjkLh1yu-4HWFAq00aZviRlERg/viewform?usp=sf_link'"  />
-</form>
-            </div>
+            <br>
+
+            <form>
+                <input class="MyButton" type="button" value="Get Started" onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSduHTpZmkwPHeUiiO66md1xpjkLh1yu-4HWFAq00aZviRlERg/viewform?usp=sf_link'" />
+            </form>
+
         </div>
     </div>
-
+    </div>
     <!--- End Services -->
-
     <hr>
     <!--Alumni-->
 
@@ -195,7 +193,7 @@
         <div class="slide-wrapper">
             <div class="slide">
                 <h1 class="slide-number">1</h1>
-                
+
             </div>
             <div class="slide">
                 <h1 class="slide-number">2</h1>
@@ -283,9 +281,9 @@
             <div class="row justify-content-center">
                 <div class="col-lg-6 col-md-6">
                     <input type="text" class="form-control" placeholder="$" aria-label="" aria-describedby="basic-addon1">
-                    <div class="input-group-append">
-                        <button class="btn btn-primary" type="button">Donate</button>
-                    </div>
+                    <form>
+                        <input class="MyButton2" type="button" value="Donate" onclick="window.location.href='https://www.gofundme.com/'" />
+                    </form>
                 </div>
             </div>
         </div>
@@ -302,10 +300,11 @@
             <div class="row">
                 <div class="col-lg-4 col-md-4">
                     <h4>Extra Information</h4>
-                    <p><i class="fa fa-home"></i> 5800 20th Avenue</p>
-                    <p><i class="fa fa-envelope"></i> hello@company.org</p>
-                    <p><i class="fa fa-phone"></i> (917)795-5948</p>
-                    <p><i class="fa fa-globe"></i> www.pupilpath.com</p>
+                    <p><i class="fa fa-home"></i> Po Box 310 Hartford, CT, 12430
+                    </p>
+                    <p><i class="fa fa-envelope"></i> Ittakesavillage@gmail.com</p>
+                    <p><i class="fa fa-phone"></i> (201) 967-8098
+                    </p>
                 </div>
                 <div class="col-lg-4 col-md-4">
                     <h4>About Us</h4>
@@ -320,8 +319,19 @@
                         <i class="fab fa-linkedin"></i>
                     </p>
                     <input type="text" class="form-control" placeholder="Email Address" aria-label="" arisdescribedby="basic-addon1">
-                    <div class="input-group-append">
-                        <button class="btn btn-primary" type="button">Subscribe</button>
+
+                    <!-- Trigger/Open The Modal -->
+                    <button id="myBtn">SUBSCRIBE HERE</button>
+
+                    <!-- The Modal -->
+                    <div id="myModal" class="modal">
+
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <p>YAY! <br> You have successfully subscribed to our newsletter</p>
+                        </div>
+
                     </div>
                 </div>
             </div>
