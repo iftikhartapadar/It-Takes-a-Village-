@@ -53,6 +53,10 @@ height:841px;
 #meet h2 {
     padding-bottom: 25px;
 }
+
+.container h2 {
+    padding-bottom: 25px;
+}
 /* Three columns side by side */
 
 .column {
@@ -61,6 +65,7 @@ height:841px;
     margin-bottom: 16px;
     padding: 0 8px;
     text-align: center;
+
 }
 
 .column img{
@@ -107,8 +112,8 @@ height:841px;
     outline: 0;
     display: inline-block;
     padding: 8px;
-    color: white;
-    background-color: #000;
+    color: black;
+    background-color: white;
     text-align: center;
     cursor: pointer;
     width: 100%;
@@ -125,6 +130,8 @@ height:841px;
     margin-right: auto;
     width: 50%;
 }
+
+
 
 
 /*SERVICES*/
@@ -190,8 +197,8 @@ border: 1px solid #fff;
 }
 
 #donate h2{
-    margin-bottom: 25px;
-    margin-top: 25px;
+    padding-bottom: 25px;
+    padding-top: 25px;
 }
 
 .form-control {
@@ -208,6 +215,7 @@ background: #439348;
 color: white;
 border: 1px solid #439348;
 border-radius: 10px;
+margin-bottom: 10px;
 }
 input.MyButton:hover {
 color: white;
@@ -244,16 +252,11 @@ border: 1px solid #fff;
 
 .contact p {
     
-    padding-bottom: 80px;
+    padding-bottom: 50px;
     color: #737373;
 }
 
-.contact h2 {
-    margin-top: 25px;
-    margin-bottom: 25px;
-    color: #4c4c4c;
-   
-}
+
 
 .contact .input-group {
     
@@ -275,14 +278,14 @@ border: 1px solid #fff;
     border-radius: 0;
     width: 100%;
     font-size: 15px;
-    background-color: #feae3f;
-    color: #fff;
+    background-color: #439398;
+    color: #a8aeb7;
 }
 
 .contact .btn:hover {
     
-    background-color: #a85959 !important;
-    color: #fff !important;
+    background-color: #439348;
+    color: #439398;
 }
 
 
@@ -332,9 +335,13 @@ border: 1px solid #fff;
 }
 
 /*FOOTER*/
-.footer container {
+.footer : container{
     padding-bottom: 50px;
     background-color: grey;
+}
+
+.footer h4 {
+    margin-top: 50px;
 }
 
 #myBtn {
