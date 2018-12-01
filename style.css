@@ -49,6 +49,10 @@ a:hover {
 #meet {
 height:841px;
 }
+
+#meet h2 {
+    padding-bottom: 25px;
+}
 /* Three columns side by side */
 
 .column {
@@ -127,17 +131,17 @@ height:841px;
 
 
 .services {
-    padding:50px 0 80px;
+    padding:25px 0 25px;
     text-align: center;
     background-color: white;
-    margin-top: 50px;
+    
 }
 
 
 .services h2 {
     text-align: center;
     color:#000000;
-    padding-bottom: 50px;
+    padding-bottom: 25px;
 }
 
 .services h4 {
@@ -187,6 +191,7 @@ border: 1px solid #fff;
 
 #donate h2{
     margin-bottom: 25px;
+    margin-top: 25px;
 }
 
 .form-control {
@@ -283,9 +288,10 @@ body {
 }
 
 .contact h2 {
-    
+    margin-top: 25px;
+    margin-bottom: 25px;
     color: #4c4c4c;
-    margin: 20px 0 20px;
+   
 }
 
 .contact .input-group {
@@ -367,4 +373,9 @@ body {
 /*FOOTER*/
 .footer container {
     padding-bottom: 50px;
+    background-color: grey;
+}
+
+#myBtn {
+    color: #439348 !important;
 }
