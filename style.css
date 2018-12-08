@@ -239,6 +239,35 @@ border: 1px solid #fff;
     color: #737373;
 }
 
+.alumni{
+    box-sizing: border-box;
+}
+
+.slideshow-container{
+    position: relative;
+    margin: auto;
+}
+ .myimages img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 25px;
+    height: 25px;
+}
+
+.container {
+  position: relative; 
+  margin: 0 auto; /* Center it */
+}
+
+.container .content {
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background-color: gray;
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 20px; /* Some padding */
+}
 
 
 
